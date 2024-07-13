@@ -1,0 +1,145 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color: #4cbac2;
+}
+.container-fluid { /*padding unsure*/
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5;
+    color: #ffffff;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #8f8f88;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+}
+.nav-item{ /*padding not processing*/
+    padding: 0 18px;
+    font-size: 2rem;
+}
+.navbar-link{
+    font-family:'Montserrat', sans-serif;
+}
+.download-button{
+    margin: 5% 5% 5% 0;
+}
+.title-image{ /*didnt rotate*/
+    width:60%;
+    transform: rotate(20deg);
+    position: static;
+    z-index: -.5;
+
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #eca63b;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:  #bcf6fa;
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color:  #4cbac2;
+}
+.carousel-item{
+    padding: 9% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+#press{
+    background-color: #4cbac2;
+    text-align: center;
+}
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    height: 450px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-header{
+    color: rgb(0, 0, 0);
+}
+.price-head{
+    color: rgb(0, 0, 0);
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #4cbac2;
+    color:#ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/*footer*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    /*add social apps when u figure out to fix the html issue in the footer section*/ 
+    /*part 12 vid*/
+}
+.social-icon{
+    margin: 15px;
+}
+/* media queries */
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{ /*phone pic disappear*/
+        position: static;
+        transform: rotate(0);
+    }
+}
